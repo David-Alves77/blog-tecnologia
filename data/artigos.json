@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "aprendendo-python",
+    "titulo": "Aprendendo Python",
+    "autor": "Equipe Tech Blog",
+    "data": "2026-10-28",
+    "descricao": "Conheça os fundamentos da linguagem Python.",
+    "conteudo": "Python é uma linguagem de programação muito utilizada no desenvolvimento back-end, automação e inteligência artificial."
+  },
+  {
+    "slug": "introducao-react",
+    "titulo": "Introdução ao React",
+    "autor": "Equipe Tech Blog",
+    "data": "2026-10-27",
+    "descricao": "Entenda como funciona a biblioteca React.",
+    "conteudo": "React é uma biblioteca JavaScript utilizada para criar interfaces interativas por meio de componentes reutilizáveis."
+  },
+  {
+    "slug": "nextjs-app-router",
+    "titulo": "Next.js e App Router",
+    "autor": "Equipe Tech Blog",
+    "data": "2026-10-26",
+    "descricao": "Aprenda como funcionam as rotas no Next.js.",
+    "conteudo": "O App Router do Next.js permite criar páginas, rotas dinâmicas e Server Components, além de configurar metadados para SEO."
+  }
+]
