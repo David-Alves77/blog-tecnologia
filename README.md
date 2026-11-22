@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## Blog de Tecnologia
 
-First, run the development server:
+Aplicação front-end desenvolvida com Next.js.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Site publicado
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+https://blog-tecnologia-qq5n.vercel.app
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Como executar
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Instale as dependências:
+   npm ci
 
-## Learn More
+2. Inicie o projeto:
+   npm run dev
 
-To learn more about Next.js, take a look at the following resources:
+3. Acesse:
+   http://localhost:3000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Testes e validações
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+npm run lint
+npm run test
+npm run build
 
-## Deploy on Vercel
+### Pipeline CI/CD
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+O projeto utiliza GitHub Actions para automatizar:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Instalação de dependências
+- Verificação de código com ESLint
+- Execução de testes automatizados
+- Build de produção
+- Deploy automático na Vercel
+
+A validação ocorre em pushes e pull requests
+para a branch main.
+
+O deploy ocorre após a validação bem-sucedida
+de um push na branch main.
