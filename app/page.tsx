@@ -35,6 +35,7 @@ export default function Home() {
                   height={320}
                   sizes="(max-width: 768px) 100vw, 640px"
                   loading={index === 0 ? "eager" : "lazy"}
+                  fetchPriority={index === 0 ? "high" : "auto"}
                   className="mb-4 h-auto w-full max-w-[640px] rounded-lg"
                 />
               )}
